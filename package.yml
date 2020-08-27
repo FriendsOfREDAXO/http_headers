@@ -1,5 +1,5 @@
 package: http_header
-version: '0.0.1'
+version: '0.0.2'
 title: 'HTTP Headers'
 author: Oliver Kreischer / getaweb GmbH
 supportpage: https://github.com/FriendsOfREDAXO/http_header
@@ -19,4 +19,6 @@ page:
             icon: rex-icon fa-book
 
 requires:
-    redaxo: '^5.1'
+    redaxo: '^5.2'
+    php:
+        version: '^7.0'
