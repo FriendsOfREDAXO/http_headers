@@ -1,10 +1,10 @@
 <?php
 
 if (rex::isBackend() && is_object(rex::getUser())) {
-    rex_perm::register('http_headers[]');
+    rex_perm::register('http_header[]');
 }
 
-$addon = rex_addon::get('http_headers');
+$addon = rex_addon::get('http_header');
 
     // --------
     // -------- X-Frame-Options

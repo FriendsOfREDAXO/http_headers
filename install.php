@@ -1,6 +1,6 @@
 <?php
 
-$addon = rex_addon::get('http_headers');
+$addon = rex_addon::get('http_header');
 
 if (!$addon->hasConfig()) {
     $addon->setConfig('x-frame-options_fb', 1);

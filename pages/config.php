@@ -6,7 +6,7 @@ $content = '';
 
 // dump(rex_system_report::factory()->get(3));
 
-$addon = rex_addon::get('http_headers');
+$addon = rex_addon::get('http_header');
 
 $func = rex_request('func', 'string');
 

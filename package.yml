@@ -1,11 +1,11 @@
-package: http_headers
+package: http_header
 version: '0.0.1'
 title: 'HTTP Headers'
 author: Oliver Kreischer / getaweb GmbH
-supportpage: https://github.com/FriendsOfREDAXO/http_headers
+supportpage: https://github.com/FriendsOfREDAXO/http_header
 
 page:
-    title: 'HTTP Headers'
+    title: 'HTTP Header'
     perm: admin
     icon: rex-icon fa-exclamation-triangle
 
