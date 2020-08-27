@@ -64,17 +64,25 @@ $addon = rex_addon::get('http_header');
         }
     }
 
-rex_response::setHeader('Server', 'always unset');
 
-// -------- Referrer-Policy
-/*
+
+// --------
+// --------  X-Powered-By
+// --------
 if($addon->getConfig('referrerpolicy') != '') {
-    rex_response::setHeader('Referrer-Policy', ''.$addon->getConfig('referrerpolicy').'');
+    if($addon->getConfig('referrerpolicy_fb') == 1) {
+        rex_response::setHeader('Referrer-Policy', ''.$addon->getConfig('referrerpolicy').'');
+    } else {
+        if (rex::isFrontend()) {
+            rex_response::setHeader('Referrer-Policy', ''.$addon->getConfig('referrerpolicy').'');
+        }
+    }
 }
-*/
 
 
 /*
+
+rex_response::setHeader('Server', 'always unset');
 rex_response::setHeader('Strict-Transport-Security', 'max-age=31536000');
 rex_response::setHeader('Content-Security-Policy', 'connect-src "self"');
 

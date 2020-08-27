@@ -1,5 +1,5 @@
 package: http_header
-version: '0.0.2'
+version: '0.0.3'
 title: 'HTTP Headers'
 author: Oliver Kreischer / getaweb GmbH
 supportpage: https://github.com/FriendsOfREDAXO/http_header
