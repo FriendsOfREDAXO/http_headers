@@ -1,0 +1,22 @@
+package: http_headers
+version: '0.0.1'
+title: 'HTTP Headers'
+author: Oliver Kreischer / getaweb GmbH
+supportpage: https://github.com/FriendsOfREDAXO/http_headers
+
+page:
+    title: 'HTTP Headers'
+    perm: admin
+    icon: rex-icon fa-exclamation-triangle
+
+    subpages:
+        config:
+            title: 'Einstellungen'
+            icon: rex-icon fa-wrench
+        help:
+            title: 'Info'
+            subPath: README.md
+            icon: rex-icon fa-book
+
+requires:
+    redaxo: '^5.1'
