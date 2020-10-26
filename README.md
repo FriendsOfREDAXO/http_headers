@@ -5,7 +5,7 @@
 * Nach der Aktivierung des AddOns und jeder Änderung muß unbedingt die Webseite auf Ihre Funktion geprüft werden!
 * Nicht übertreiben. Nicht immer ist es überall sinnvoll bei jedem test 100% zu erreichen! Nachdenken hilft.
 
-## Header testen 
+## Header testen
 
 * https://siwecos.de
 * https://securityheaders.com
@@ -29,6 +29,8 @@
 * https://spacehost.de/10-apache-header-eintraege-webseite-sicher-machen/
 * https://www.scip.ch/?labs.20180308
 
+weitere Seiten folgen
+
 ## HSTS preload list
 * https://hstspreload.org
 _Beachte, dass die Aufnahme in die Preload-Liste nicht einfach rückgängig gemacht werden kann._
@@ -44,7 +46,7 @@ _Beachte, dass die Aufnahme in die Preload-Liste nicht einfach rückgängig gema
 **Friends Of REDAXO**
 
 * http://www.redaxo.org
-* https://github.com/FriendsOfREDAXO 
+* https://github.com/FriendsOfREDAXO
 
 **Projekt-Lead**
 
