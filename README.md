@@ -13,6 +13,29 @@
 * https://cspvalidator.org
 * https://www.whatsmyip.org/http-headers/
 
+## Browser Plugins
+
+### Chrome
+
+CSP Evaluator  
+* https://chrome.google.com/webstore/detail/csp-evaluator/fjohamlofnakbnbfjkohkbdigoodcejf?hl=de
+
+CSP Mitigator  
+* https://chrome.google.com/webstore/detail/csp-mitigator/gijlobangojajlbodabkpjpheeeokhfa?hl=de
+
+CSP Tester  
+* https://chrome.google.com/webstore/detail/csp-tester/ehmipebdmhlmikaopdfoinmcjhhfadlf?hl=de
+
+Google Chrome Extension for 4ARMED's Content Security Policy Generator  
+* https://github.com/4armed/csp-generator-extension
+
+
+### Firefox
+
+Laboratory (Content Security Policy / CSP Toolkit)  
+* https://addons.mozilla.org/en-US/firefox/addon/laboratory-by-mozilla/
+
+
 ## Infoseiten (unsortiert und unvollständig)
 
 * https://developer.mozilla.org/de/docs/Web/HTTP/Headers
@@ -32,14 +55,17 @@
 weitere Seiten folgen
 
 ## HSTS preload list
-* https://hstspreload.org
-_Beachte, dass die Aufnahme in die Preload-Liste nicht einfach rückgängig gemacht werden kann._
+
+* https://hstspreload.org  
+Beachte, dass die Aufnahme in die Preload-Liste nicht einfach rückgängig gemacht werden kann!
 
 ## ToDo
 
 - CSS auslagern
 - Funktionen erweitern
 - Readme ergänzen
+- Texarea für eigene Header angaben bereitstellen
+- Prüfen ob Header schon gesetzt wurden
 
 ## Autor
 
