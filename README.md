@@ -1,3 +1,9 @@
+# Projekt eingestellt
+
+Es wurde ein neues Addon entwickelt welches bald hoffentlich auch bei den FOR zu finden ist: https://github.com/iceman-fx/httpheader
+
+---
+
 ## Wichtige Info
 
 * **Mit den falschen Einstellungen kann es passieren, dass die Webseite nachhaltig nicht mehr wie gewünscht funktioniert!!**
